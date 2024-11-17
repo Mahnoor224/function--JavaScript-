@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <p>Setting a defualt value to a function parameter.</p>
+        <p id="demo"></p>
+        <script>
+            function myfunction(x,y){
+                if(y=== undefined){
+                    y = 5;
+                }
+                return x * y;
+            }
+            document.getElementById("demo").innerHTML = myfunction(7);
+        </script>
+    </body>
+</html>
